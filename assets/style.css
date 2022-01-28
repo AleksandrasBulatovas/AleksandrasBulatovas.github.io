@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&display=swap');
+
+body {
+    background-color: #d3e5fd;
+    font-family: 'Jost', sans-serif;
+}
+.form-container {
+    width: 100%;
+    max-width: 730px;
+    height: 570px;
+    margin: 70px auto 0 ;
+    background-color: #fff
+    ;
+
+}
+.form-container .contact-row {
+    display: flex;
+    
+}
+.form-container .contact-row fieldset {
+    width: 100%;
+    border: none;
+    padding: 0 15px;
+    margin: 0 0 19px;
+}
+.form-container .contact-row fieldset .placeholder {
+    color: #2a42f3;
+}
+.form-container h2 {
+    color: #2a42f3;
+    color: #2a42f3;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 16px 40px 20px;
+}
+.form-container .contact-row fieldset .input {
+    width: 100%;
+    font-size: 15px;
+    padding: 16px 15px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: none;
+    background-color: #dce1ff;
+}
+.form-container .contact-row fieldset .textarea {
+    width: 700px;
+    height: 95px;
+    border: 1px solid #666;
+    background-color: #a5b1fd;
+    color: #fff;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: none;
+}
+.form-container .submit {
+    margin-top: 15px;
+    text-align: center;
+}
+.form-container .submit .button {
+    background-color: #2a42f3;
+    border-radius: 33px;
+    border: none;
+    padding: 20px 55px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.form-container .form-label {
+    margin-left: 90px;
+}
